@@ -700,6 +700,7 @@ body {
     line-height: 1.4;
   }
   #es-rc #es-rc-content .es-formula {
+    margin-bottom: 100px;
     padding-bottom: 50px;
     position: relative;
     z-index: 0;
@@ -835,7 +836,7 @@ body {
   }
   #es-rc #es-rc-content .es-cross {
     padding-bottom: 5px;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
   }
   #es-rc #es-rc-content .es-cross__left {
     padding-left: 50px;

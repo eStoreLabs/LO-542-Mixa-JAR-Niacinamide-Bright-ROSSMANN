@@ -893,6 +893,7 @@ body {
     }
 
     .es-kv__textWrapper {
+      -webkit-box-align: end;
       align-items: flex-end;
     }
 
@@ -923,6 +924,7 @@ body {
     }
 
     .es-formula {
+      margin-bottom: 100px;
       padding-bottom: 50px;
       position: relative;
       z-index: 0;
@@ -1110,7 +1112,7 @@ body {
 
     .es-cross {
       padding-bottom: 5px;
-      margin-bottom: 50px;
+      margin-bottom: 100px;
     }
 
     .es-cross__left {
