@@ -73,6 +73,10 @@ body {
   .es-kv {
     margin-bottom: 30px;
 
+    &__logo-img {
+      max-width: 90%;
+    }
+
     &__right-img {
       &--desktop {
         display: none;
@@ -99,10 +103,12 @@ body {
     }
 
     &__title {
+      padding: 0;
+      padding-left: 15px;
+      padding-right: 15px;
       margin-bottom: 10px;
       background-color: $color-yellow;
       color: $color-white;
-      padding: $padding-S;
       font-weight: $fw-bold;
       text-align: right;
     }
@@ -118,7 +124,9 @@ body {
       -webkit-box-pack: center;
       justify-content: center;
       gap: $padding-M;
-      padding: $padding-L;
+      padding-top: 20px;
+      text-align: right;
+      padding-right: 5px;
     }
 
     &__info {
@@ -267,7 +275,7 @@ body {
 
     &__title {
       font-weight: 700;
-      font-size: 100px;
+      font-size: 80px;
       color: $color-blue;
       text-align: center;
     }
@@ -290,7 +298,6 @@ body {
       flex-direction: column;
       gap: $padding-S;
       background-color: #ffffff19;
-      padding: $padding-S;
       border-radius: $padding-XS;
       -webkit-backdrop-filter: blur(4px);
       backdrop-filter: blur(4px);
@@ -365,12 +372,12 @@ body {
     }
 
     &__left-image {
-      margin-bottom: 40px;
+      margin-bottom: 20px;
     }
 
     &__left-disclaimer {
-      max-width: 500px;
-      font-size: 11px;
+      max-width: 354px;
+      font-size: 8px;
       text-align: center;
     }
   }
@@ -497,7 +504,7 @@ body {
       padding: 6px 12px;
       color: $color-white;
       background: $color-blue;
-      border-radius: 0 10px 0 0;
+      border-radius: 10px 0px 0 0;
       font-size: 25px;
       font-weight: 700;
     }
@@ -602,7 +609,7 @@ body {
     }
 
     &__logo img {
-      max-width: 120px;
+      max-width: 160px;
     }
 
     &__wrapper {
@@ -625,7 +632,6 @@ body {
       align-items: center;
       gap: $padding-S;
       text-align: center;
-      padding: $padding-S;
       border-radius: $padding-M;
       -webkit-transition: all 200ms ease-in-out;
       transition: all 200ms ease-in-out;
@@ -639,8 +645,8 @@ body {
       background-color: $color-blue;
       padding: $padding-XS;
       border-radius: $padding-XS;
-      width: 80px;
-      height: 80px;
+      width: 60px;
+      height: 60px;
       display: grid;
       place-items: center;
     }
@@ -690,7 +696,7 @@ body {
       &__packshot {
         position: absolute;
         bottom: 0%;
-        left: 50%;
+        left: 49%;
         -webkit-transform: translate(-50%, 0%);
         transform: translate(-50%, 0%);
         max-width: 23%;
@@ -751,8 +757,8 @@ body {
       max-width: -webkit-max-content;
       max-width: -moz-max-content;
       max-width: max-content;
-      padding-inline: $padding-XXL;
-      border-radius: $padding-XS 0 $padding-XS 0;
+      padding: 10px 44px;
+      border-radius: 0 10px 0 0;
       margin: auto;
       margin-left: 0;
     }
@@ -811,11 +817,11 @@ body {
       display: -webkit-box;
       display: flex;
       position: relative;
-      min-height: 500px;
+      min-height: 400px;
     }
 
     .es-kv__right {
-      min-height: 500px;
+      min-height: 400px;
       width: 100%;
     }
 
@@ -823,6 +829,11 @@ body {
       width: 50%;
       position: absolute;
       margin: 0;
+    }
+
+    .es-kv__textWrapper {
+      padding-top: 15px;
+      padding-right: 15px;
     }
 
     .es-kv__packshot {
@@ -840,7 +851,7 @@ body {
     }
 
     .es-kv__right img {
-      height: 100%;
+      height: 450px;
       -o-object-position: center;
       object-position: center;
     }
@@ -858,26 +869,57 @@ body {
     }
 
     .es-kv__logo {
-      margin: $padding-XL $padding-L;
+      margin: 23px 25px;
       padding: unset;
       max-width: 120px;
     }
 
     .es-kv__title {
-      padding: $padding-S $padding-L $padding-S $padding-XL;
+      font-size: 33px;
+    }
+
+    .es-header {
+      font-size: 24px;
+      padding-top: 10px;
+      padding-bottom: 5px;
+    }
+
+    .es-header--bold {
+      font-size: 23px;
+    }
+
+    .es-kv__header {
+      font-size: 23px;
     }
 
     .es-kv__textWrapper {
-      -webkit-box-align: start;
-      align-items: flex-start;
+      align-items: flex-end;
     }
 
     .es-kv__text {
-      max-width: 345px;
+      max-width: 500px;
+      font-size: 17px;
     }
 
-    .es-features__text {
-      font-size: 1.5em;
+    .es-features {
+      &__text {
+        font-size: 1.5em;
+      }
+
+      &__inner {
+        padding-top: 30px;
+      }
+
+      &__right-title {
+        margin-bottom: 0;
+        font-size: 22px;
+      }
+
+      &__right-description {
+        font-size: 17px;
+        max-width: 430px;
+        line-height: 1.4;
+      }
     }
 
     .es-formula {
@@ -917,7 +959,7 @@ body {
       z-index: 0;
       display: -webkit-box;
       display: flex;
-      min-height: 500px;
+      min-height: 530px;
 
       &__bg-mobile {
         display: none;
@@ -938,12 +980,11 @@ body {
       right: 0;
       -webkit-box-pack: center;
       justify-content: center;
-      width: 40%;
     }
 
     .es-cross__wrapper {
       padding: 0 $padding-S;
-      width: 53%;
+      width: 60%;
       margin: 0 auto;
     }
 
@@ -971,6 +1012,7 @@ body {
     }
 
     .es-ekspert {
+      padding-bottom: 50px;
       display: -webkit-box;
       display: flex;
       -webkit-box-align: center;
@@ -989,6 +1031,29 @@ body {
       height: 100%;
       max-height: 500px;
     }
+
+    .es-formule {
+      &__left-title-1,
+      &__left-title-2,
+      &__right-title-1,
+      &__right-title-2 {
+        font-size: 16px;
+      }
+
+      &__left-title-1 {
+        top: 12%;
+        left: 10%;
+      }
+
+      &__left-title-2 {
+        top: 29%;
+        right: -2%;
+      }
+
+      &__right-title-2 {
+        right: 0%;
+      }
+    }
   }
 
   @media (min-width: 750px) {
@@ -1002,10 +1067,12 @@ body {
       -webkit-box-orient: horizontal;
       -webkit-box-direction: normal;
       flex-direction: row;
+      margin-bottom: 83px;
 
       &__left-title {
-        font-size: 25px;
+        margin-bottom: 30px;
         max-width: 400px;
+        font-size: 23px;
       }
 
       &__right {
@@ -1015,6 +1082,22 @@ body {
   }
 
   @media (min-width: 992px) {
+    .es-cross {
+      &__wrapper {
+        width: 61%;
+      }
+
+      &__desc {
+        padding-top: 18px;
+        font-size: 12px;
+      }
+    }
+
+    .es-kv {
+      &__right img {
+        height: auto;
+      }
+    }
     .es-formula {
       &__bg {
         width: 100%;
@@ -1032,6 +1115,7 @@ body {
 
     .es-cross__left {
       padding-left: $padding-XXL;
+      padding-right: 0;
     }
   }
 }
