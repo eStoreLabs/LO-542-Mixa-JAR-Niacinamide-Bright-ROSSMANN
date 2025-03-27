@@ -29,6 +29,7 @@ body {
 }
 #es-rc #es-rc-content p {
   margin: 0;
+  line-height: inherit;
 }
 #es-rc #es-rc-content img {
   max-width: 100%;
