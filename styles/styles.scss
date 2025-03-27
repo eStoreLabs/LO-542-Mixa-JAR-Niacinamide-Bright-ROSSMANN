@@ -6,9 +6,6 @@ $fs-header: 22px;
 $color-text: #000000;
 $color-yellow: #ffad00;
 $color-blue: #0058bf;
-$color-blue--lighter: #3fb3ee;
-$color-orange: #fab283;
-$color-green: #79cc96;
 $color-white: #ffffff;
 
 $padding-XS: 8px;
@@ -185,7 +182,6 @@ body {
     }
 
     &__title {
-      background-color: $color-blue--lighter;
       color: $color-white;
       padding: $padding-S;
       text-align: center;
