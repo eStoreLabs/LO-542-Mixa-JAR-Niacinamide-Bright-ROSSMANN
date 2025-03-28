@@ -307,6 +307,7 @@ body {
   padding-left: 20px;
   padding-right: 30px;
   font-size: 14px;
+  border: 2px solid #ffffff;
 }
 #es-rc #es-rc-content .es-formule__left-title-2 {
   position: absolute;
@@ -320,6 +321,7 @@ body {
   padding-left: 20px;
   padding-right: 30px;
   font-size: 14px;
+  border: 2px solid #ffffff;
 }
 #es-rc #es-rc-content .es-formule__right-title-1 {
   position: absolute;
@@ -333,6 +335,7 @@ body {
   padding-left: 20px;
   padding-right: 30px;
   font-size: 14px;
+  border: 2px solid #ffffff;
 }
 #es-rc #es-rc-content .es-formule__right-title-2 {
   position: absolute;
@@ -346,6 +349,7 @@ body {
   padding-left: 20px;
   padding-right: 30px;
   font-size: 14px;
+  border: 2px solid #ffffff;
 }
 #es-rc #es-rc-content .es-cross {
   position: relative;
@@ -796,7 +800,7 @@ body {
     right: -2%;
   }
   #es-rc #es-rc-content .es-formule__right-title-2 {
-    right: 0%;
+    right: 1%;
   }
 }
 @media (min-width: 750px) {

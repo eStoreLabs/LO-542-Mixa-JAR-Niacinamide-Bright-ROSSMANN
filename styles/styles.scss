@@ -407,6 +407,7 @@ body {
       padding-left: 20px;
       padding-right: 30px;
       font-size: 14px;
+      border: 2px solid $color-white;
     }
 
     &__left-title-2 {
@@ -421,6 +422,7 @@ body {
       padding-left: 20px;
       padding-right: 30px;
       font-size: 14px;
+      border: 2px solid $color-white;
     }
 
     &__right-title-1 {
@@ -435,6 +437,7 @@ body {
       padding-left: 20px;
       padding-right: 30px;
       font-size: 14px;
+      border: 2px solid $color-white;
     }
 
     &__right-title-2 {
@@ -449,6 +452,7 @@ body {
       padding-left: 20px;
       padding-right: 30px;
       font-size: 14px;
+      border: 2px solid $color-white;
     }
   }
 
@@ -1050,7 +1054,7 @@ body {
       }
 
       &__right-title-2 {
-        right: 0%;
+        right: 1%;
       }
     }
   }
