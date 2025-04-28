@@ -216,6 +216,7 @@ body {
 
     &__packshot {
       max-width: 50%;
+      display: none;
     }
 
     &__right-title {
@@ -376,6 +377,10 @@ body {
       max-width: 354px;
       font-size: 8px;
       text-align: center;
+    }
+
+    &__right-image {
+      display: none;
     }
   }
 
@@ -701,6 +706,10 @@ body {
         -webkit-transform: translate(-50%, 0%);
         transform: translate(-50%, 0%);
         max-width: 23%;
+      }
+
+      &__packshot {
+        display: block;
       }
 
       &__line {
@@ -1036,6 +1045,7 @@ body {
     }
 
     .es-formule {
+
       &__left-title-1,
       &__left-title-2,
       &__right-title-1,
@@ -1082,6 +1092,14 @@ body {
         margin-left: -30px;
       }
     }
+
+    .es-ba {
+
+      &__right-image {
+        display: block;
+      }
+
+    }
   }
 
   @media (min-width: 992px) {
@@ -1101,6 +1119,7 @@ body {
         height: auto;
       }
     }
+
     .es-formula {
       &__bg {
         width: 100%;

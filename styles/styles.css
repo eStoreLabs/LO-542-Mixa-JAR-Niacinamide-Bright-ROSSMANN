@@ -156,6 +156,7 @@ body {
 }
 #es-rc #es-rc-content .es-features__packshot {
   max-width: 50%;
+  display: none;
 }
 #es-rc #es-rc-content .es-features__right-title {
   margin-bottom: 20px;
@@ -283,6 +284,9 @@ body {
   max-width: 354px;
   font-size: 8px;
   text-align: center;
+}
+#es-rc #es-rc-content .es-ba__right-image {
+  display: none;
 }
 #es-rc #es-rc-content .es-formule {
   display: flex;
@@ -536,6 +540,9 @@ body {
     left: 49%;
     transform: translate(-50%, 0%);
     max-width: 23%;
+  }
+  #es-rc #es-rc-content .es-features__packshot {
+    display: block;
   }
   #es-rc #es-rc-content .es-features__line {
     display: block;
@@ -819,6 +826,9 @@ body {
   }
   #es-rc #es-rc-content .es-ba__right {
     margin-left: -30px;
+  }
+  #es-rc #es-rc-content .es-ba__right-image {
+    display: block;
   }
 }
 @media (min-width: 992px) {
